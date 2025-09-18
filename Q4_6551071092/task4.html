@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h2>User Information Form</h2>
+
+        <form action="" method="get">
+
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Age -->
+            <label>Age:</label>
+            <input type="radio" name="age" value="<18" class="inline" required> <18
+            <input type="radio" name="age" value="19-35" class="inline"> 19-35
+            <input type="radio" name="age" value="36-48" class="inline"> 36-48
+            <input type="radio" name="age" value=">49" class="inline"> >49
+
+            <!-- Profession -->
+            <label for="profession">Profession:</label>
+            <input type="text" id="profession" name="profession" required>
+
+            <!-- Country -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">-- Select your country --</option>
+                <option value="vn">Vietnam</option>
+                <option value="us">USA</option>
+                <option value="uk">UK</option>
+                <option value="jp">Japan</option>
+            </select>
+
+            <!-- Interests -->
+            <label>Interests:</label>
+            <input type="checkbox" name="interest" value="sports" class="inline"> Sports
+            <input type="checkbox" name="interest" value="music" class="inline"> Music
+            <input type="checkbox" name="interest" value="travel" class="inline"> Travel
+            <input type="checkbox" name="interest" value="reading" class="inline"> Reading
+
+            <!-- How did you find us -->
+            <label for="found">How did you find out about the site?</label>
+            <textarea id="found" name="found" rows="4"></textarea>
+
+            <!-- Submit -->
+            <button type="submit">Submit</button>
+        </form>
+
+    </body>
+</html>
