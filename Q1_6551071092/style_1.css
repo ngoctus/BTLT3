@@ -1,0 +1,61 @@
+#main-header {
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+body{
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin-top: 0;
+}
+
+.menu{
+    width: 15%;
+    padding: 10px;
+    border-right: 4px dashed green;
+    box-sizing: border-box;
+}
+
+.menu a{
+    display: block;
+    margin-bottom: 8px;
+    color: blue;
+}
+
+.post{
+    width: 60%;
+    padding: 10px;
+}
+
+article h2.highlight{
+    font-family: 'Times new roman';
+    font-size: 24px;
+}
+
+.sidebar{
+    width: 25%;
+    padding: 10px;
+    border: 1px dashed green;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a{
+    color: blue;
+}
