@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 2px solid #333;
+}
+
+header .logo {
+    width: 60px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.news, .announcements {
+    width: 40%;
+    text-align: left;
+}
+
+.news h2, .announcements h2 {
+    border-bottom: 2px solid #2e8b57;
+    padding-bottom: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #333;
+    font-size: 14px;
+}
